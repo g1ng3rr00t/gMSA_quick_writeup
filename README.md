@@ -18,10 +18,12 @@ In the article where this can be found the following benefits from gMSA are stat
 	- The gMSA user used as the MID Server service account doesn't need to be on the local admin group of the MID Server (Still true)
 
 However, if you read the text under Domain Controller;
+
 	- gmsa-03 user created as a Domain user (yep)
 	- Security group "GMSAGroup" created and is able to retrieve the gMSA user password (that's how they work, no issues here)
 
 Then the text under Discovered Windows Server;
+	
 	- Windows server added as a member to the security group "GMSAGroup"
 	- "gmsa-03" added as a local admin
 
